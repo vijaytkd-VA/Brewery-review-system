@@ -1,0 +1,77 @@
+/* Styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3; /* Light gray background */
+  }
+  
+  .brewery-search-container {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the search container */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #111; /* Dark color for heading */
+    font-size: 24px;
+  }
+  
+  input[type="text"],
+  select,
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .brewery-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .brewery-card h3 {
+    color: #111; /* Dark color for brewery name */
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  .brewery-card p {
+    color: #666; /* Light gray color for details */
+    font-size: 14px;
+  }
+  
+  .brewery-card button {
+    background-color: #f90; /* Orange color for 'Add Review' button */
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .brewery-card a {
+    color: #007185; /* Teal color for links */
+    text-decoration: none;
+  }
+  
+  .brewery-card a:hover {
+    text-decoration: underline;
+  }
+  
